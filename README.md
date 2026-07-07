@@ -1,16 +1,17 @@
 # Hi, I'm Yakov
 
-I work with TypeScript, JavaScript, Python, automation, and business-oriented software systems.
+I build practical software tools with TypeScript, JavaScript, Python, and Node.js.
 
-My main interest is practical development: clear interfaces, reliable workflows, automation, integrations, and tools that help people work faster with less manual routine.
+My main focus is developer productivity, workflow reliability, automation, integrations, and business-oriented systems. I like tools that solve concrete problems: reduce manual routine, make processes more reliable, and help people work faster without unnecessary complexity.
 
 ## About me
 
-- Worked with frontend development and TypeScript / JavaScript in business software
-- Interested in accounting, finance, and workflow automation systems
-- Build small tools for developer productivity and everyday engineering tasks
+- Work with TypeScript and JavaScript in business software and developer tooling
+- Build open-source CLI tools for documentation quality, AI-assisted workflows, and developer productivity
+- Interested in accounting, finance, integrations, and workflow automation systems
 - Use Python for automation, scripts, backend experiments, and data-related tasks
-- Interested in AI-assisted development, but mostly from a practical tooling perspective
+- Care about clear interfaces, predictable behavior, tests, CI, and reliable release workflows
+- Use AI-assisted development as a practical engineering tool, not as a replacement for understanding the code
 
 ## Main stack
 
@@ -38,7 +39,7 @@ My main interest is practical development: clear interfaces, reliable workflows,
 ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=poetry&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
 
-## Tools
+## Tools and workflow
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -52,13 +53,29 @@ My main interest is practical development: clear interfaces, reliable workflows,
 ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-## Featured project
+## Featured projects
+
+### DriftFence
+
+An open-source TypeScript CLI that checks whether project documentation has drifted from the actual codebase.
+
+DriftFence scans `README.md` and docs files, then detects outdated package script references, missing file paths, and env vars missing from `.env.example`. It is designed as a deterministic developer tool for keeping documentation honest before users run broken commands.
+
+The project includes npm publishing, GitHub Actions CI, release tags, tests, self-checks, Markdown ignore blocks, MDX docs support, and false-positive reduction for common documentation examples.
+
+- GitHub: [CHAPAPOPA/driftfence](https://github.com/CHAPAPOPA/driftfence)
+- npm: [driftfence](https://www.npmjs.com/package/driftfence)
+
+```bash
+npm install -D driftfence
+npx driftfence check
+```
 
 ### PatchPacket
 
-A small open-source TypeScript CLI tool for preparing focused Markdown context packets for AI coding assistants.
+An open-source TypeScript CLI tool for preparing focused Markdown context packets for AI coding assistants.
 
-It takes a terminal error or stack trace, scans a local project, selects relevant files, adds project metadata and git diff, and creates a clean context file for ChatGPT, Claude, Cursor, Copilot Chat, Gemini, and similar tools.
+PatchPacket takes a terminal error or stack trace, scans a local project, selects relevant files, adds project metadata and git diff, and creates a clean context file for ChatGPT, Claude, Cursor, Copilot Chat, Gemini, and similar tools.
 
 - GitHub: [CHAPAPOPA/patchpacket](https://github.com/CHAPAPOPA/patchpacket)
 - npm: [patchpacket](https://www.npmjs.com/package/patchpacket)
@@ -68,14 +85,15 @@ npm install -g patchpacket
 patchpacket bug . --error-file ./error.txt --out ./patchpacket-context.md
 ```
 
-## Currently interested in
+## What I care about
 
-- Frontend and business application development
-- Accounting and workflow automation systems
-- Developer tools
-- CLI utilities
-- Python automation
+- Developer tools and CLI utilities
+- Documentation quality and workflow reliability
 - AI-assisted coding workflows
+- Automation of repetitive engineering tasks
+- Frontend and business application development
+- Accounting, finance, and workflow automation systems
+- Python automation and backend experiments
 
 ## Contacts
 
