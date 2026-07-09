@@ -1,15 +1,16 @@
 # Hi, I'm Yakov
 
-I build practical software tools with TypeScript, JavaScript, Python, and Node.js.
+I work as a programmer in a government organization, mainly with accounting, business process, and workflow systems.
 
-My main focus is developer productivity, workflow reliability, automation, integrations, and business-oriented systems. I like tools that solve concrete problems: reduce manual routine, make processes more reliable, and help people work faster without unnecessary complexity.
+Outside my main job, I build small open-source CLI tools and automation projects with TypeScript, JavaScript, Python, and Node.js. I like practical software: tools that reduce manual routine, make processes more reliable, and help people work faster without unnecessary complexity.
 
 ## About me
 
-- Work with TypeScript and JavaScript in business software and developer tooling
-- Build open-source CLI tools for documentation quality, AI-assisted workflows, and developer productivity
-- Interested in accounting, finance, integrations, and workflow automation systems
+- Work with business-oriented software, accounting systems, integrations, and workflow automation
+- Use TypeScript and JavaScript for practical development and developer tooling
+- Build open-source CLI tools as personal projects and engineering practice
 - Use Python for automation, scripts, backend experiments, and data-related tasks
+- Interested in accounting, finance, public-sector systems, and process reliability
 - Care about clear interfaces, predictable behavior, tests, CI, and reliable release workflows
 - Use AI-assisted development as a practical engineering tool, not as a replacement for understanding the code
 
@@ -26,7 +27,7 @@ My main focus is developer productivity, workflow reliability, automation, integ
 ![CLI](https://img.shields.io/badge/CLI-111827?style=flat-square)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
-## Backend, automation and data
+## Backend, automation and data experiments
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?style=flat-square&logo=django&logoColor=white)
@@ -59,9 +60,9 @@ My main focus is developer productivity, workflow reliability, automation, integ
 
 An open-source TypeScript CLI that checks whether project documentation has drifted from the actual codebase.
 
-DriftFence scans `README.md` and docs files, then detects outdated package script references, missing file paths, and env vars missing from `.env.example`. It is designed as a deterministic developer tool for keeping documentation honest before users run broken commands.
+DriftFence scans `README.md`, `docs/**/*.md`, and `docs/**/*.mdx`, then detects outdated package script references, missing file paths, and env vars missing from `.env.example`. It is designed as a deterministic developer tool for keeping documentation honest before users run broken commands.
 
-The project includes npm publishing, GitHub Actions CI, release tags, tests, self-checks, Markdown ignore blocks, MDX docs support, and false-positive reduction for common documentation examples.
+The project includes npm publishing, GitHub Actions CI, release tags, tests, self-checks, Markdown ignore blocks, MDX docs support, config file support, and false-positive reduction for common documentation examples.
 
 - GitHub: [CHAPAPOPA/driftfence](https://github.com/CHAPAPOPA/driftfence)
 - npm: [driftfence](https://www.npmjs.com/package/driftfence)
@@ -87,12 +88,13 @@ patchpacket bug . --error-file ./error.txt --out ./patchpacket-context.md
 
 ## What I care about
 
+- Business software and accounting systems
+- Workflow reliability and process automation
 - Developer tools and CLI utilities
-- Documentation quality and workflow reliability
+- Documentation quality
 - AI-assisted coding workflows
 - Automation of repetitive engineering tasks
 - Frontend and business application development
-- Accounting, finance, and workflow automation systems
 - Python automation and backend experiments
 
 ## Contacts
